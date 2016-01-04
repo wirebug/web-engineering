@@ -31,11 +31,6 @@ public class Shout
         return message;
     }
 
-    public void setMessage(String message)
-    {
-        this.message = replaceSmileys(message);
-    }
-
     public String getDate()
     {
         return date;
@@ -44,20 +39,5 @@ public class Shout
     public void setDate(String date)
     {
         this.date = date;
-    }
-
-    private String replaceSmileys(String text)
-    {
-        HashMap<String, String> smileys = new HashMap<>();
-
-        smileys.put(":)", "<img src=\"img/).gif\" alt=\":)\" />");
-        smileys.put(":D", "<img src=\"img/D.gif\" alt=\":D\" />");
-        smileys.put(":P", "<img src=\"img/P.gif\" att=\":P\" />");
-
-        for (Map.Entry<String, String> smiley: smileys.entrySet()) {
-            text = text.replace(smiley.getKey(), smiley.getValue());
-        }
-
-        return text;
     }
 }
