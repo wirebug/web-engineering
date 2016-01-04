@@ -1,0 +1,6 @@
+<%@ page pageEncoding="UTF-8" %>
+<hr>
+<footer class="footer">
+    <jsp:useBean id="now" class="java.util.Date" />
+    <p>&copy; Christoph - ${1900 + now.year}.</p>
+</footer>

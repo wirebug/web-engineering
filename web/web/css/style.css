@@ -1,0 +1,12 @@
+.header a {
+    text-decoration: none;
+}
+
+#shouts {
+    height: 220px;
+    overflow-y: scroll;
+}
+
+.navbar-static-top {
+    margin-bottom: 19px;
+}
