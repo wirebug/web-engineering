@@ -2,8 +2,6 @@ package de.christoph.verein.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Shout
 {
@@ -26,10 +24,7 @@ public class Shout
         this.name = name;
     }
 
-    public String getMessage()
-    {
-        return message;
-    }
+    public String getMessage() {return message; }
 
     public String getDate()
     {
@@ -40,4 +35,5 @@ public class Shout
     {
         this.date = date;
     }
+
 }
