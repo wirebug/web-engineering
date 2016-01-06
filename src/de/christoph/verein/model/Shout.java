@@ -10,9 +10,7 @@ public class Shout
     private String date;
 
     public Shout()
-    {
-        this.date = new SimpleDateFormat("dd.MM.yyyy HH:mm").format(new Date());
-    }
+    {this.date = new SimpleDateFormat("dd.MM.yyyy HH:mm").format(new Date()); }
 
     public String getName()
     {
@@ -25,6 +23,8 @@ public class Shout
     }
 
     public String getMessage() {return message; }
+
+    public void setMessage(String message) {this.message = message;}
 
     public String getDate()
     {

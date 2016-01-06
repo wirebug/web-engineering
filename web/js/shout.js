@@ -26,7 +26,7 @@ $(function() {
     }, 3000);
 
     $("#name").keypress(function() {
-        $(this).parent().removeClass("has-warning");
+        $(this).parent().removeClass("has-danger");
     });
 
     $("#message").keypress(function() {
@@ -37,11 +37,11 @@ $(function() {
 
         if(length == maxLength)
         {
-            $(this).parent().addClass("has-warning");
+            $(this).parent().addClass("has-danger");
         }
         else
         {
-            $(this).parent().removeClass("has-warning");
+            $(this).parent().removeClass("has-danger");
         }
     });
 
@@ -68,8 +68,8 @@ $(function() {
         }
         else
         {
-            $("#name").parent().addClass("has-warning");
-            $("#message").parent().addClass("has-warning");
+            $("#name").parent().addClass("has-danger");
+            $("#message").parent().addClass("has-danger");
         }
     });
 });

@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Startseite - Westf&auml;lischer Yachtclub Delecke</title>
+        <title>Startseite - Förderverein Grundschöttel</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css">
         <link rel="stylesheet" href="//getbootstrap.com/examples/jumbotron/jumbotron.css">
         <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,7 @@
             <div class="container jumbotron">
                 <h1>Helfe uns!</h1>
                 <p class="lead">Der Förderverein der Löschgruppe Grundschöttel unterstützt die Truppe bei allen Belangen. So werden neue Geräte, Fortbildungen und vieles mehr von uns finaziert. Aber auch wenn nachts ein heiße Suppe für die Kameraden gebraucht wird, sind wir da! Werde Mitglied und unterstütze deine lokalen Retter.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Mitglied werden &raquo;</a></p>
+                <p><a class="btn btn-primary" href="#" role="button">Mitglied werden &raquo;</a></p>
             </div>
                 <div class="row">
                     <jsp:useBean id="newsList" class="de.christoph.verein.model.NewsList" scope="page" />
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="message" class="col-sm-2 control-label">Text</label>
+                                <label for="message" class="col-sm-2 control-label">Nachricht</label>
                                 <div class="col-sm-10">
                                     <input name="message" maxlength="140" type="text" class="form-control" id="message" placeholder="Text" aria-describedby="count">
                                     <span id="count" class="help-block"></span>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <input id="shout-submit" type="submit" class="btn btn-default" value="abschicken">
+                                    <input id="shout-submit" type="submit" class="btn btn-default" value="Senden">
                                 </div>
                             </div>
                         </form>
@@ -65,6 +65,6 @@
         <![endif]-->
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="js/shout.js"></script>
     </body>
 </html>
