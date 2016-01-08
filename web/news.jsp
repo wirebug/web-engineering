@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Neuigkeiten - Förderverein Grundschöttel</title>
+        <title>Neuigkeiten - Fouml;rderverein Grundschouml;ttel</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css">
         <link rel="stylesheet" href="//getbootstrap.com/examples/jumbotron/jumbotron.css">
         <link rel="stylesheet" href="web/css/style.css">

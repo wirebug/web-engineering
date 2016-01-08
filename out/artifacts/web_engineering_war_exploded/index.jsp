@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Startseite - Westf&auml;lischer Yachtclub Delecke</title>
+        <title>Startseite - F&ouml;rderverein Grundsch&ouml;ttel</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css">
         <link rel="stylesheet" href="//getbootstrap.com/examples/jumbotron/jumbotron.css">
         <link rel="stylesheet" href="css/style.css">
@@ -16,7 +16,7 @@
             <%@include file="/WEB-INF/jspf/header.jspf" %>
             <div class="container jumbotron">
                 <h1>Helfe uns!</h1>
-                <p class="lead">Der Förderverein der Löschgruppe Grundschöttel unterstützt die Truppe bei allen Belangen. So werden neue Geräte, Fortbildungen und vieles mehr von uns finaziert. Aber auch wenn nachts ein heiße Suppe für die Kameraden gebraucht wird, sind wir da! Werde Mitglied und unterstütze deine lokalen Retter.</p>
+                <p class="lead">Der Fouml;rderverein der Louml;schgruppe Grundschouml;ttel unterstützt die Truppe bei allen Belangen. So werden neue Geräte, Fortbildungen und vieles mehr von uns finaziert. Aber auch wenn nachts ein heiße Suppe für die Kameraden gebraucht wird, sind wir da! Werde Mitglied und unterstütze deine lokalen Retter.</p>
                 <p><a class="btn btn-primary" href="#" role="button">Mitglied werden &raquo;</a></p>
             </div>
                 <div class="row">

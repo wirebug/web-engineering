@@ -9,13 +9,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../../index.jsp">F&ouml;rdervein LG Grundsch&ouml;ttel</a>
+            <a class="navbar-brand" href="index.jsp">F&ouml;rdervein LG Grundsch&ouml;ttel</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li role="presentation" <% if(request.getRequestURI().contains("index")) { %>class="active"<% } %>><a href="../../index.jsp">Der Verein</a></li>
-                    <li role="presentation" <% if(request.getRequestURI().contains("news")) { %>class="active"<% } %>><a href="../../news.jsp">Neuigkeiten</a></li>
-                    <li role="presentation" <% if(request.getRequestURI().contains("contact")) { %>class="active"<% } %>><a href="../../contact.jsp">Kontakt</a></li>
+                    <li role="presentation" <% if(request.getRequestURI().contains("index")) { %>class="active"<% } %>><a href="index.jsp">Der Verein</a></li>
+                    <li role="presentation" <% if(request.getRequestURI().contains("news")) { %>class="active"<% } %>><a href="news.jsp">Neuigkeiten</a></li>
+                    <li role="presentation" <% if(request.getRequestURI().contains("contact")) { %>class="active"<% } %>><a href="contact.jsp">Kontakt</a></li>
                 </ul>
         </div>
     </div>

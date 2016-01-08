@@ -12,7 +12,7 @@ $(function() {
 
     function getShouts() {
         $.get(
-            "res/shout",
+            "resources/shout",
             function (result) {
                 fillShoutbox(result);
             }
@@ -56,7 +56,7 @@ $(function() {
             $.ajax({
                 type: "POST",
                 contentType: "application/json",
-                url: "res/shout",
+                url: "resources/shout",
                 dataType: "json",
                 data: JSON.stringify({"name": name, "message": msg}),
                 success: function (result) {
