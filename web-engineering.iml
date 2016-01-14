@@ -26,8 +26,14 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.1" level="application_server_libraries" />
     <orderEntry type="library" name="javax.annotation:javax.annotation-api:1.2" level="project" />
-    <orderEntry type="library" name="javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" name="javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
-    <orderEntry type="library" name="javax.json:javax.json-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="javax.json:javax.json-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:6.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.json:javax.json-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.metro:webservices-rt:2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.metro:webservices-api:2.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:javax.annotation-api:1.2-b03" level="project" />
   </component>
 </module>

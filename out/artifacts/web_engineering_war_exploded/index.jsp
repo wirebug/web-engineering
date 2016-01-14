@@ -16,7 +16,7 @@
             <%@include file="/WEB-INF/jspf/header.jspf" %>
             <div class="container jumbotron">
                 <h1>Helfe uns!</h1>
-                <p class="lead">Der Fouml;rderverein der Louml;schgruppe Grundschouml;ttel unterstützt die Truppe bei allen Belangen. So werden neue Geräte, Fortbildungen und vieles mehr von uns finaziert. Aber auch wenn nachts ein heiße Suppe für die Kameraden gebraucht wird, sind wir da! Werde Mitglied und unterstütze deine lokalen Retter.</p>
+                <p class="lead">Der F&ouml;rderverein der L&ouml;schgruppe Grundsch&ouml;;ttel unterstützt die Truppe bei allen Belangen. So werden neue Geräte, Fortbildungen und vieles mehr von uns finanziert. Aber auch wenn nachts ein heiße Suppe für die Kameraden gebraucht wird, sind wir da! Werde Mitglied und unterstütze deine lokalen Retter.</p>
                 <p><a class="btn btn-primary" href="#" role="button">Mitglied werden &raquo;</a></p>
             </div>
                 <div class="row">
@@ -36,27 +36,38 @@
                         </article>
                     </c:forEach>
                 </div>
-                    <div id="shouts"></div>
-                        <form id="form-shout" class="form-horizontal">
-                            <div class="form-group">
-                                <label for="name" class="col-sm-2 control-label">Name</label>
-                                <div class="col-sm-10">
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Name">
-                                </div>
+
+            <!-- DIRECT CHAT PRIMARY -->
+            <div class="box box-primary direct-chat">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Shoutbox</h3>
+                </div>
+                <div class="box-body">
+                    <div id="sb" class="direct-chat-messages"></div>
+                </div>
+                <div class="box-footer">
+                    <form id="form-shout" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Name">
                             </div>
-                            <div class="form-group">
-                                <label for="message" class="col-sm-2 control-label">Nachricht</label>
-                                <div class="col-sm-10">
-                                    <input name="message" maxlength="140" type="text" class="form-control" id="message" placeholder="Text" aria-describedby="count">
-                                    <span id="count" class="help-block"></span>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-sm-2 control-label">Nachricht</label>
+                            <div class="col-sm-10">
+                                <input name="message" maxlength="140" type="text" class="form-control" id="message" placeholder="Tippe deine Nachricht ..." aria-describedby="count">
+                                <span id="count" class="help-block"></span>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <input id="shout-submit" type="submit" class="btn btn-default" value="Senden">
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input id="shout-submit" type="submit" class="btn btn-primary" value="Senden">
                             </div>
-                        </form>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <%@include file="/WEB-INF/jspf/footer.jspf" %>
         </div>
         <!--[if lt IE 9]>

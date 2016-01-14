@@ -1,12 +1,12 @@
 $(function() {
     function fillShoutbox(result) {
-        var shouts = $("#shouts");
+        var shouts = $("#sb");
 
         shouts.html("");
 
         for(var i = 0; i < result.length; i++)
         {
-            shouts.append("<div class=\"shout\"><h4>" + result[i].name + " (" + result[i].date + "):</h4><p>" + result[i].message + "</p></div>");
+            shouts.append("<div class=\"direct-chat-msg\"><div class=\"direct-chat-info clearfix\"><span class=\"direct-chat-name pull-left\">"+ result[i].name + "</span><span class=\"direct-chat-timestamp pull-right\">"+ result[i].date + "</span> </div> <img class=\"direct-chat-img\" src=\"img/defaultUser.png\" alt=\"Message User Image\"><div class=\"direct-chat-text\"> "+ result[i].message +" </div></div>");
         }
     }
 
@@ -60,8 +60,8 @@ $(function() {
                 dataType: "json",
                 data: JSON.stringify({"name": name, "message": msg}),
                 success: function (result) {
-                    $("#shouts").append("<div class=\"shout\" style=\"display: none;\"><h4>" + result.name + " (" + result.date + "):</h4><p>" + result.message + "</p></div>");
-                    $("#shouts > .shout").last().fadeIn();
+                    $("#sb").append("<div class=\"direct-chat-msg\"><div class=\"direct-chat-info clearfix\"><span class=\"direct-chat-name pull-left\">"+ result[i].name + "</span><span class=\"direct-chat-timestamp pull-right\">"+ result[i].date + "</span> </div> <img class=\"direct-chat-img\" src=\"img/defaultUser.png\" alt=\"Message User Image\"><div class=\"direct-chat-text\"> "+ result[i].message +" </div></div>");
+                    $("#sb > .shout").last().fadeIn();
                     $("#message").val("").keypress();
                 }
             });
